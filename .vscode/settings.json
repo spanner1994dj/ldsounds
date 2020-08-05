@@ -4,5 +4,30 @@
         "dbusername",
         "sucessfully",
         "usrnm"
-    ]
+    ],
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "database": "LD Users",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "Users",
+            "password": "Compo1994DJL!",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "socketPath": "/Users/imac/Documents/Html/LDSounds/Users.db",
+            "username": "LDUsersAdmin2020"
+        },
+        {
+            "database": "${workspaceFolder:LDSounds}/Users.db",
+            "driver": "SQLite",
+            "name": "Users",
+            "previewLimit": 50
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "liveServer.settings.port": 5501
 }

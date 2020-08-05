@@ -124,7 +124,7 @@ li a {
 
 li a:hover:not(.active) {
 	background-color: #ddd;
-	text-color:blue;
+	color:blue;
 }
 
 li a.active {
@@ -160,6 +160,8 @@ li a.active {
 .card2:hover{
 		border-color:red;
 }
+
+
 /* Contact Form */
 * {box-sizing: border-box}
 

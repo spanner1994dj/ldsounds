@@ -4,11 +4,11 @@
 	if (!empty($username)){
 	if (!empty($password)){
 	$host = "localhost";
-	$dbusername = "";
-	$dbpassword = "";
-	$dbname = "Users.db";
+	$username = "LDUsersAdmin2020";
+	$password = "Compo1994DJL!";
+	$dbname = "LDusers";
 	// Create connection
-	$conn =mssql ($host, $dbusername, $dbpassword, $dbname);
+	$conn = mysqli_connect ($host, $username, $password, $dbname);
 
 
 	if (mysqli_connect_error()){
